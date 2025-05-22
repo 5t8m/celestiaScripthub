@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -115,6 +114,14 @@
           transform: translateY(0);
           opacity: 1;
         }
+      }
+
+      /* === ADD THIS CSS TO MAKE CONTAINER 2cm WIDER === */
+      .container {
+        width: calc(100% + 2cm);
+        max-width: none; /* Remove any max-width that restricts container width */
+        margin-left: auto;
+        margin-right: auto;
       }
     </style>
   </head>
