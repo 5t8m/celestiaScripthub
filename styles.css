@@ -1,8 +1,8 @@
 :root {
   --primary-bg: #191919;
   --secondary-bg: #1b1b1b;
-  --accent-color: #9543ef;
-  --accent-hover: #7d36d1;
+  --accent-color: #3f8efc; /* Blue */
+  --accent-hover: #3578d6; /* Slightly darker blue */
   --text-color: #e2e2e2;
   --text-secondary: #6a6a6a;
   --card-bg: #1f1f1f;
@@ -105,7 +105,7 @@ body {
 #searchInput:focus {
   outline: none;
   border-color: var(--accent-color);
-  box-shadow: 0 0 0 2px rgba(149, 67, 239, 0.2);
+  box-shadow: 0 0 0 2px rgba(63, 142, 252, 0.2); /* Updated glow */
 }
 
 .pagination {
