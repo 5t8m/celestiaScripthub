@@ -212,7 +212,7 @@ function updateStats() {
 }
 window.addEventListener("load", function () {
   setTimeout(() => {
-    showToast("Script Hub Initialized!", "success");
+    //showToast("Script Hub Initialized!", "success");
   }, 2000);
 });
 function showToast(message, type) {
